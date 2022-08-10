@@ -2,12 +2,11 @@ package apiTest;
 
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test1 {
+public class GetFirst {
 
     @Test
     public void test1(){
